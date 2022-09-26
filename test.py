@@ -24,6 +24,9 @@ for x in root.findall('job'):
 print(root[0][2].text)
 print(root[0][2].tag)
 
+# to find all values of a particular node
+for l in root.iter('city'):
+    print(l.text)
 
 
 
